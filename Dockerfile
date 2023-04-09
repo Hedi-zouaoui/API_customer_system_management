@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-EXPOSE 8080
+EXPOSE 8083
 
 COPY ./target/demo-*.jar /usr/app/
 WORKDIR /usr/app
