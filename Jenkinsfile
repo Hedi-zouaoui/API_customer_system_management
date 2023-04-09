@@ -58,7 +58,7 @@ pipeline {
                         bat "git remote set-url origin https://${USER}:${PASS}@gitlab.com/Hedi-zouaoui/API_customer_system_management.git"
                         bat 'git add .'
                         bat 'git commit -m "ci: version bump"'
-                        bat 'git push origin HEAD:master'
+                        bat 'git push origin '
                     }
                 }
             }
